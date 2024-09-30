@@ -88,9 +88,9 @@ body{
     .en-btn{
         background-color: #00000039;
         color: white;
-        border: 1px solid #eeeeee87;
+        /* border: 1px solid #eeeeee87; */
         padding: 8px 50px 8px 10px;
-        border-radius: 6px;
+        /* border-radius: 6px; */
         font-size: 14px;
     
     }
@@ -168,7 +168,10 @@ body{
     }
     .tv{
         width: 100%;
+        border-radius: 20px;
+        margin-top: 25px;
         position: relative;
+        
     }
     .video{
         margin-left: 66px;
@@ -287,15 +290,33 @@ body{
         color: white;
         border-radius: 6px;
         font-size: 14px;
+        text-decoration: none;
     }
     .en-btn{
         background-color: #0000006e;
         color: white;
-        border: 1px solid #eeeeee87;
+        /* border: 1px solid #eeeeee87; */
         padding: 8px 30px;
-        border-radius: 6px;
+        /* border-radius: 6px; */
         font-size: 14px;
     
+    }
+    select{
+        background-color: #00000039;
+        color: white;
+        /* border: 1px solid #eeeeee87; */
+        /* padding: 8px 50px 8px 10px; */
+        /* border-radius: 6px; */
+        font-size: 14px;
+        border: none;
+    }
+    .en-btn:focus{
+        background-color: #00000050;
+        color: white;
+        border: 2px solid #fff;
+        padding: 8px 50px 8px 10px;
+        border-radius: 6px;
+        font-size: 14px;
     }
     /* translate: x axis, y axis */
     .title{
@@ -355,6 +376,8 @@ body{
     .tv{
         width: 100%;
         position: relative;
+        border-radius: 20px;
+        margin-top: 25px;
     }
     .video{
         margin-left: 66px;
@@ -474,15 +497,33 @@ body{
         color: white;
         border-radius: 6px;
         font-size: 14px;
+        text-decoration: none;
     }
     .en-btn{
         background-color: #0000006e;
         color: white;
-        border: 1px solid #eeeeee87;
+        /* border: 1px solid #eeeeee87; */
         padding: 8px 30px;
         border-radius: 6px;
         font-size: 14px;
     
+    }
+    select{
+        background-color: #00000039;
+        color: white;
+        /* border: 1px solid #eeeeee87; */
+        /* padding: 8px 50px 8px 10px; */
+        /* border-radius: 6px; */
+        font-size: 14px;
+        border: none;
+    }
+    .en-btn:focus{
+        background-color: #00000050;
+        color: white;
+        border: 2px solid #fff;
+        padding: 8px 50px 8px 10px;
+        border-radius: 6px;
+        font-size: 14px;
     }
     /* translate: x axis, y axis */
     .title{
@@ -547,6 +588,8 @@ body{
         width: 100%;
         margin: auto;
         position: relative;
+        border-radius: 20px;
+        /* margin-top: 25px; */
     }
     .video{
         margin-left: 46px;
